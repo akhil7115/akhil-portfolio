@@ -10,7 +10,10 @@
     <nav class="navbar">
         <div class="nav-container">
             <h1 class="logo">Akhil Shukla</h1>
-            <ul class="nav-menu">
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                ☰
+            </button>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="{{ url_for('home') }}">Home</a></li>
                 <li><a href="{{ url_for('about') }}">About</a></li>
                 <li><a href="{{ url_for('projects') }}">Projects</a></li>
